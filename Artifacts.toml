@@ -1,0 +1,103 @@
+[[arm_binutils]]
+arch = "aarch64"
+git-tree-sha1 = "18e592f9f5bd6359dbf33b83f87c32925ad57966"
+libc = "glibc"
+os = "linux"
+
+    [[arm_binutils.download]]
+    sha256 = "98d7980a74b4c316600b5b4535997c8c507a0dfac23cea761c7e1470a6479423"
+    url = "https://github.com/JuliaBinaryWrappers/arm_binutils_jll.jl/releases/download/arm_binutils-v2.41.0+0/arm_binutils.v2.41.0.aarch64-linux-gnu.tar.gz"
+[[arm_binutils]]
+arch = "aarch64"
+git-tree-sha1 = "3c0eee64ea24a81c203781525308395a5df85ef4"
+libc = "musl"
+os = "linux"
+
+    [[arm_binutils.download]]
+    sha256 = "2f3b9edf669f2b0edd27f5e2593ee2c59c63cd25b3e7e4d8c1553a9a749e2ef3"
+    url = "https://github.com/JuliaBinaryWrappers/arm_binutils_jll.jl/releases/download/arm_binutils-v2.41.0+0/arm_binutils.v2.41.0.aarch64-linux-musl.tar.gz"
+[[arm_binutils]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "9466564b7335985461e3da1c9a2be981158f933f"
+libc = "glibc"
+os = "linux"
+
+    [[arm_binutils.download]]
+    sha256 = "35a343c1e0f42b5b0c636f4af1eb2fb958a082eac06a4a53859aa87d554196fa"
+    url = "https://github.com/JuliaBinaryWrappers/arm_binutils_jll.jl/releases/download/arm_binutils-v2.41.0+0/arm_binutils.v2.41.0.armv6l-linux-gnueabihf.tar.gz"
+[[arm_binutils]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "6e38f9c383aca390c56bedc9ebbaf4e112bf32f0"
+libc = "musl"
+os = "linux"
+
+    [[arm_binutils.download]]
+    sha256 = "be4e9a52df6159f3cf4a90d8c436bd3afde44207ec3553c3b8a2049caa2536fe"
+    url = "https://github.com/JuliaBinaryWrappers/arm_binutils_jll.jl/releases/download/arm_binutils-v2.41.0+0/arm_binutils.v2.41.0.armv6l-linux-musleabihf.tar.gz"
+[[arm_binutils]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "b025d56e2d5cf8c12de2ee00a83a702089e3a233"
+libc = "glibc"
+os = "linux"
+
+    [[arm_binutils.download]]
+    sha256 = "c30403e25dae4302f5aa12736f1bcac261dec036db4a800abc4478b10b59667a"
+    url = "https://github.com/JuliaBinaryWrappers/arm_binutils_jll.jl/releases/download/arm_binutils-v2.41.0+0/arm_binutils.v2.41.0.armv7l-linux-gnueabihf.tar.gz"
+[[arm_binutils]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "03d61c28913a34674054d899f4b9903db0f91d97"
+libc = "musl"
+os = "linux"
+
+    [[arm_binutils.download]]
+    sha256 = "f12bd4ca019018844d18fd2adf0776366d8ffb9399a49cbf5a71ba8736551730"
+    url = "https://github.com/JuliaBinaryWrappers/arm_binutils_jll.jl/releases/download/arm_binutils-v2.41.0+0/arm_binutils.v2.41.0.armv7l-linux-musleabihf.tar.gz"
+[[arm_binutils]]
+arch = "i686"
+git-tree-sha1 = "116225ac27fe03a3327d58d8c14c530392933696"
+libc = "glibc"
+os = "linux"
+
+    [[arm_binutils.download]]
+    sha256 = "6ab4d97c21831af73cb522358a8fa1b1d9ecd0a6e75dd3d4fa16889d53031809"
+    url = "https://github.com/JuliaBinaryWrappers/arm_binutils_jll.jl/releases/download/arm_binutils-v2.41.0+0/arm_binutils.v2.41.0.i686-linux-gnu.tar.gz"
+[[arm_binutils]]
+arch = "i686"
+git-tree-sha1 = "6d9f3bc43accb575b4cdaa9f76fed61accb7931d"
+libc = "musl"
+os = "linux"
+
+    [[arm_binutils.download]]
+    sha256 = "243c700f5e5968af5a6c535c35f2c5f4fffaa92f156764f4172d8e8bffe01764"
+    url = "https://github.com/JuliaBinaryWrappers/arm_binutils_jll.jl/releases/download/arm_binutils-v2.41.0+0/arm_binutils.v2.41.0.i686-linux-musl.tar.gz"
+[[arm_binutils]]
+arch = "powerpc64le"
+git-tree-sha1 = "9b50b599f2c244c27b830c9d1ca110c2e0e0cfd5"
+libc = "glibc"
+os = "linux"
+
+    [[arm_binutils.download]]
+    sha256 = "cfffdf193d9073397ac2e95711f5b799caab97b4184712966ec21f6f2f3a4fec"
+    url = "https://github.com/JuliaBinaryWrappers/arm_binutils_jll.jl/releases/download/arm_binutils-v2.41.0+0/arm_binutils.v2.41.0.powerpc64le-linux-gnu.tar.gz"
+[[arm_binutils]]
+arch = "x86_64"
+git-tree-sha1 = "379a568c3a4611e87b5e20bdfae899edc2754607"
+libc = "glibc"
+os = "linux"
+
+    [[arm_binutils.download]]
+    sha256 = "b6b567701216acd5069807b6fb91ed732f36a5b7b05b11f4a8452e6916f892b8"
+    url = "https://github.com/JuliaBinaryWrappers/arm_binutils_jll.jl/releases/download/arm_binutils-v2.41.0+0/arm_binutils.v2.41.0.x86_64-linux-gnu.tar.gz"
+[[arm_binutils]]
+arch = "x86_64"
+git-tree-sha1 = "55510b5a48249f952dc5cc59a86fbe1fce3ec4dc"
+libc = "musl"
+os = "linux"
+
+    [[arm_binutils.download]]
+    sha256 = "72b97ef7006e60fb1afbae665a8dfa21ab274c2ec0abe9732d20ae44226ae6cb"
+    url = "https://github.com/JuliaBinaryWrappers/arm_binutils_jll.jl/releases/download/arm_binutils-v2.41.0+0/arm_binutils.v2.41.0.x86_64-linux-musl.tar.gz"
